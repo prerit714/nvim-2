@@ -211,9 +211,12 @@ return {
         "prettierd",
         "eslint_d",
         "goimports",
+        "gofumpt",
         "golangci-lint",
         "markdownlint",
         "google-java-format",
+        "mdformat",
+        "npm-groovy-lint",
       })
       require("mason-tool-installer").setup({
         ensure_installed = ensure_installed,

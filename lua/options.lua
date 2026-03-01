@@ -104,7 +104,7 @@ local filetype_settings = {
 
   rust = { expandtab = true, shiftwidth = 4, tabstop = 4, softtabstop = 4 },
 
-  java = { expandtab = true, shiftwidth = 4, tabstop = 4, softtabstop = 4 },
+  java = { expandtab = true, shiftwidth = 2, tabstop = 2, softtabstop = 2 },
 
   sh = { expandtab = true, shiftwidth = 2, tabstop = 2, softtabstop = 2 },
   bash = { expandtab = true, shiftwidth = 2, tabstop = 2, softtabstop = 2 },
@@ -120,6 +120,8 @@ local filetype_settings = {
 
   xml = { expandtab = true, shiftwidth = 4, tabstop = 4, softtabstop = 4 },
   html = { expandtab = true, shiftwidth = 4, tabstop = 4, softtabstop = 4 },
+
+  groovy = { expandtab = true, shiftwidth = 4, tabstop = 4, softtabstop = 4 },
 }
 
 local function set_indent_settings(settings)

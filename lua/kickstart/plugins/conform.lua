@@ -42,6 +42,8 @@ return {
         typescriptreact = { "prettierd", "prettier", stop_after_first = true },
         go = { "goimports", "gofmt", stop_after_first = true },
         java = { "google_java_format", stop_after_first = true },
+        markdown = { "mdformat" },
+        groovy = { "npm-groovy-lint" },
       },
     },
   },
